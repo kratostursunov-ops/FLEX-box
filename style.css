@@ -1,0 +1,123 @@
+body {
+    background-color: #1a233b;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #5a5e6a;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header-box {
+    background-color: #e63946;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 100px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: #2b2d42;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 5px solid #e63946;
+}
+
+.image-box {
+    flex-basis: 45%;
+    padding-bottom: 25.3125%;
+    position: relative;
+    min-width: 250px;
+}
+
+.image-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-box {
+    flex-basis: 100%;
+    padding: 20px;
+    border-color: #00b894;
+}
+
+.video-box h2 {
+    margin-top: 0;
+}
+
+.video-content {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video-content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    background-color: #e63946;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    flex: 1;
+    min-width: 280px;
+}
+
+.center-text {
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    margin: -20px auto 0;
+    width: fit-content;
+    text-align: center;
+}
